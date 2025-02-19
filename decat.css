@@ -1,0 +1,25 @@
+
+       /* Navigation Styles */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Clear floats */
+    background-color: #333; /* Background color for the navigation bar */
+}
+
+nav ul li {
+    display: inline-block; /* Make list items horizontal */
+}
+
+nav ul li a {
+    display: block; /* Make the entire area clickable */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 20px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
